@@ -1,0 +1,20 @@
+{
+  "name": "promise-exp",
+  "version": "1.0.0",
+  "description": "Promise experience",
+  "main": "index.js",
+  "scripts": {
+    "p.all": "node Promise.all/sample.js",
+    "p.all2": "node Promise.all/sample2.js",
+    "p.any": "node Promise.any.sample.js",
+    "p.first": "node Promise.first.sample.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Den Pol",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "p-first": "^1.1.0",
+    "promise-any-polyfill": "^1.0.1"
+  }
+}
