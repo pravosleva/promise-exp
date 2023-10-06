@@ -4,10 +4,12 @@
   "description": "Promise experience",
   "main": "index.js",
   "scripts": {
-    "p.all": "node Promise.all/sample.js",
-    "p.all2": "node Promise.all/sample2.js",
-    "p.any": "node Promise.any.sample.js",
-    "p.first": "node Promise.first.sample.js",
+    "g.1": "node src/generators/sample.js",
+    "g.2": "node src/generators/sample2.js",
+    "p.all": "node src/promises/Promise.all/sample.js",
+    "p.all2": "node src/promises/Promise.all/sample2.js",
+    "p.any": "node src/promises/Promise.any.sample.js",
+    "p.first": "node src/promises/Promise.first.sample.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Den Pol",
